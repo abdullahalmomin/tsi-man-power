@@ -36,9 +36,8 @@
 
                                     <div class="heading-block center" id="welcome-slider-heading-block" style="width:40%; float: right;  background: rgba(0, 0, 0, 0.7); padding: 20px;">
 
-                                        <h5>Elevator Technician</h5>
-
-                                        <p>Elevator service technicians are primarily responsible for all preventative maintenance and repair work on elevators and similar people-moving machinery. They also install various components of the elevator system, such as the railings on which the elevator car travels, its supporting motors and cables and the electrical wiring and microprocessors that power the equipment.</p>
+                                        <h4>Elevator Technician</h4><hr>
+                                        <p style="font-size: 15px;">Elevator service technicians are primarily responsible for all preventative maintenance and repair work on elevators and similar people-moving machinery. They also install various components of the elevator system, such as the railings on which the elevator car travels, its supporting motors and cables and the electrical wiring and microprocessors that power the equipment.</p>
 
                                     <!-- <h3 id="welcome-slider-h2-01"><span style="color: #fff;">YOU </span> DESERVE <span style="color: #fff;">A BETTER WAY</span> TO INVEST</h3> -->
 
@@ -82,13 +81,13 @@
 
 
                     <div class="col-md-12 our-project-holding-column">
-                       <h2 class="palace-luxury-resort-h2" style="text-align: center;font-weight: 700;font-family: 'Muli';font-size: 45px;color: #77b12c;margin-bottom: 30px;">INTRO</h2>
+                       <h2 class="palace-luxury-resort-h2" style="text-align: center;font-weight: 700;font-family: 'Muli';font-size: 45px;color: #77b12c;margin-bottom: 30px;">INTRODUCTION</h2>
 
                        <p class="our-projects-p">We Trade Services International (TSI) Manpower take pleasure to introduce ourselves as a reputed human resources consulting organization from Bangladesh
                        </p>
                        <p class="our-projects-p">TSI Manpower was founded in 2008 to meet the increasing global demand for human resources with a view to becoming a leader in the recruitment industry. Our company emphasizes the highest priority of quality and not in quantity. The management has consistently endeavored to maintain this without comprise. Our recruiting license (Recruiting License Number# RL-1000) is issued by Bureau of Manpower, Employment and Training (BMET), Government of the People’s republic of Bangladesh.
                        </p>
-                       <a href="intro.html" class="button button-rounded button-reveal button-large button-border tright" id="palace-luxury-resort-button"><i class="icon-play"></i><span>Learn More</span></a>
+                       <a href="{{ url('intro') }}" class="button button-rounded button-reveal button-large button-border tright" id="palace-luxury-resort-button"><i class="icon-play"></i><span>Learn More</span></a>
 
 
 

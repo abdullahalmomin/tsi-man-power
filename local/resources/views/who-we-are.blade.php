@@ -1,12 +1,9 @@
 @extends('master')
 @section('main-content')
 
-
-
-
-
+<link rel="stylesheet" href="{{ asset('assets/css/custom-profile.css') }}" type="text/css" />
 <!-- Palace Company Profile Section -->
-<section id="content" class="palace-company-profile-section" style="background: url('images/custom-images/section/company-profile/background-img-company-profile.jpg'); background-size: cover;">
+<section id="content" class="palace-company-profile-section" style="background: url('{{ asset('assets/images/custom-images/section/company-profile/background-img-company-profile.jpg') }}'); background-size: cover;">
 
     <div class="content-wrap" id="company-profile">
 
@@ -51,86 +48,86 @@
                         <ul style="list-style: none;">
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Our staff works with dedication in delivering the best of their responsibilities thus confirming to a dedicated team work.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Search in our data bank for qualified candidates
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Screening of applications.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Interview by experts to shortlist.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Final interview by the employer or his authorized representative.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Practical test of the candidate in the reputed technical centre’s, if required.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
 
                                 The selected candidate undergoes for medical test.    
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Submission of candidate's passport to the Embassy for visa stamping.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Completion of immigration formalities in the Expatriate Ministry.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Reservation of flight ticket.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Orientation regarding company job etc.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Departure of the candidate from airport.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Communication with the counterparts for reception and other formalities.
                             </li>
                             <li>
                                 <i>
-                                    <img src="images/custom-images/section/project/project-feature-list-icon.png" class="img-feature-custom-list-icon">
+                                    <img src="{{ asset('assets/images/custom-images/section/project/project-feature-list-icon.png') }}" class="img-feature-custom-list-icon">
                                 </i>
                                 Maintenance of documents of professionals and workers (candidates).
                             </li>                                    
@@ -242,7 +239,7 @@
             </div>
         </div>
     </section>
-    <section id="content" class="palace-company-profile-section" style="background: url('images/custom-images/section/company-profile/background-img-company-profile.jpg'); background-size: cover;">
+    <section id="content" class="palace-company-profile-section" style="background: url('{{ asset('assets/images/custom-images/section/company-profile/background-img-company-profile.jpg') }}'); background-size: cover;">
 
         <div class="content-wrap" id="company-profile">
 
