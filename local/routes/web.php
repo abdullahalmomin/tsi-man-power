@@ -20,6 +20,12 @@ Route::get('/contact_us', function () {
 Route::get('/intro', function () {
     return view('intro');
 });
+Route::get('/candidate', function () {
+    return view('candidate');
+});
+Route::get('/clientPost', function () {
+    return view('clientPost');
+});
 // Route::get('/contact_us', function () {
 //     return view('contact');
 // });

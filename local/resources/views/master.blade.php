@@ -40,8 +40,8 @@
 <nav class="cd-vertical-nav">
     <ul>
         <li><a href="{{ url('intro') }}" id="intro-nav"><span class="label">Hot Jobs</span></a></li>
-        <li><a href="candidatesResume.html" id="location"><span class="label">Candidate Post Your Resume</span></a></li>
-        <li><a href="#top-left-img-layout-plan" id="plan"><span class="label">Client post your Resume</span></a></li>
+        <li><a href="{{ url('candidate') }}" id="location"><span class="label">Candidate Post Your Resume</span></a></li>
+        <li><a href="{{ url('clientPost') }}" id="plan"><span class="label">Client post your Resume</span></a></li>
        <!--  <li><a href="#top-left-img-booking-form" id="booking"><span class="label">Booking</span></a></li>
         <li><a href="#top-left-img-term" id="term"><span class="label">Conditions</span></a></li>
     -->
@@ -63,7 +63,7 @@
                 <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                 <div id="logo">
-                    <h3>TSI Manpower</h3>
+                    <a href="{{ url('/') }}"><h3 style="margin-top: 30px;">TSI Manpower</h3></a>
 
 
                 </div><!-- #logo end -->
@@ -72,26 +72,26 @@
                 <nav id="primary-menu">
 
                     <ul>
-                        <li class="current"><a href="#"><div class="primary-menu-ul-li-a-div"><i><img src="{{asset('assets/images/custom-images/icon/Green-Planet-Lands-Ltd.png')}}" id="home-icon"></i>Home</div></a>
+                        <li class="current"><a href="{{ url('/') }}"><div class="primary-menu-ul-li-a-div"><i><img src="{{asset('assets/images/custom-images/icon/Green-Planet-Lands-Ltd.png')}}" id="home-icon"></i>Home</div></a>
 
                         </li>
 
                         <li><a href="#"><div class="primary-menu-ul-li-a-div">About us </div></a>
                             <ul>
-                                <li><a href="{{ url('who-we-are#company-profile') }}"><div class="primary-menu-ul-li-a-div">Introduction</div></a></li>
-                                <li><a href="{{ url('intro') }}"><div class="primary-menu-ul-li-a-div">Company Profile</div></a> </li>
+                                <li><a href="{{ url('intro') }}"><div class="primary-menu-ul-li-a-div">Introduction</div></a></li>
+                                <li><a href="{{ url('who-we-are#company-profile') }}"><div class="primary-menu-ul-li-a-div">Company Profile</div></a> </li>
 
                                 <li><a href="{{ url('who-we-are#sister-concern') }}"><div class="primary-menu-ul-li-a-div">Team</div></a></li>
                             </ul>
                         </li>
-                            <li><a href="contact"><div class="primary-menu-ul-li-a-div"> Services</div></a></li>
-                            <li><a href="contact.html"><div class="primary-menu-ul-li-a-div"> Cleints</div></a></li>
-                            <li><a href="contact.html"><div class="primary-menu-ul-li-a-div">Govt. Services Division</div></a></li>
+                            <li><a href="#"><div class="primary-menu-ul-li-a-div"> Services</div></a></li>
+                            <li><a href="#"><div class="primary-menu-ul-li-a-div"> Cleints</div></a></li>
+                            <li><a href="#"><div class="primary-menu-ul-li-a-div">Govt. Services Division</div></a></li>
                    
 
 
 
-                        <li><a href="contact.html"><div class="primary-menu-ul-li-a-div">Contact</div></a>
+                        <li><a href="#"><div class="primary-menu-ul-li-a-div">Contact</div></a>
 
                         </li>
 

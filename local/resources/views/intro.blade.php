@@ -1,28 +1,7 @@
 @extends('master')
 @section('main-content')
-<style>
-    #slider_bg_vdo {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-        transform: translateX(-50%) translateY(-50%);
-        /*background: url('images/bg.webp') no-repeat;*/
-        background:#f8f8f8 url(images/pattern.jpg) repeat
-        background-size: cover;
-        transition: 1s opacity;
-        }
-</style>
-
-
-
-
-
-
+    
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-project-02.css') }}" type="text/css" />
     <!--************** Our Projects ************************-->
     <section id="content"> 
 
@@ -36,7 +15,7 @@
  
 
                     <div class="col-md-12 our-project-holding-column">
-                             <h2 class="palace-luxury-resort-h2" style="text-align: center;font-weight: 700;font-family: 'Muli';font-size: 45px;color: #77b12c;margin-bottom: 30px;">INTRO</h2>
+                             <h2 class="palace-luxury-resort-h2" style="text-align: center;font-weight: 700;font-family: 'Muli';font-size: 45px;color: #77b12c;margin-bottom: 30px;">INTRODUCTION</h2>
 
                         <p class="our-projects-p">We Trade Services International (TSI) Manpower take pleasure to introduce ourselves as a reputed human resources consulting organization from Bangladesh
                         </p>
