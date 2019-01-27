@@ -18,13 +18,35 @@ Route::get('/contact_us', function () {
 	return view('contact');
 });
 Route::get('/intro', function () {
-    return view('intro');
+	return view('intro');
+});
+Route::get('/services', function () {
+	return view('services');
+});
+Route::get('/clients', function () {
+	return view('clients');
+
+});
+Route::get('/galary', function () {
+	return view('galary');
+});
+Route::get('/strength', function () {
+	return view('strength');
+});
+Route::get('/howitworks', function () {
+	return view('howItWorks');
 });
 Route::get('/candidate', function () {
-    return view('candidate');
+	return view('candidate');
 });
 Route::get('/clientPost', function () {
-    return view('clientPost');
+	return view('clientPost');
+});
+Route::get('/contact', function () {
+	return view('contact');
+});
+Route::get('/jobs', function () {
+	return view('jobs');
 });
 // Route::get('/contact_us', function () {
 //     return view('contact');

@@ -5,7 +5,7 @@
     <section id="content" class="palace-project-booking-form-section" style="background: url('{{ asset('assets/images/custom-images/section/booking-form/background-palace-booking-form.jpg')}}'); background-size: cover;">
 
 
-        <img src="{{ asset('assets/images/custom-images/section/booking-form/palace-booking-form-top-left-img.png') }}" id="top-left-img-booking-form">
+        <!-- <img src="{{ asset('assets/images/custom-images/section/booking-form/palace-booking-form-top-left-img.png') }}" id="top-left-img-booking-form"> -->
 
 
         <div class="content-wrap" id="palace-project-booking-form-content">
@@ -15,8 +15,7 @@
 
                 <div class="col_two_third">
 
-                    <p id="palace-booking-form-custom-paragraph">To make your dream come true, please get in touch with us for more details. You can also download the Booking Form.
-                    </p>
+                    <p id="palace-booking-form-custom-paragraph">POST YOUR RESUME</p>
 
                     <form id="register-form" name="register-form" class="nobottommargin" action="#" method="post">
 
@@ -43,7 +42,7 @@
                         <div class="clear"></div>
 
                         <div class="col_full">
-                            <button class="button" id="register-form-submit" name="register-form-submit" value="register">Send Message</button>
+                            <button class="button" id="register-form-submit" name="register-form-submit" value="register">Submit</button>
                         </div>
 
                     </form>
@@ -55,9 +54,9 @@
 
                  <div class="heading-block palace-project-booking-form-download-heading-block center">
 
-                     <h2 class="palace-project-booking-form-download-h2">DOWNLOAD BOOKING FORM</h2>
-
-                     <span class="palace-company-profile-span">
+                     <h2 class="palace-project-booking-form-download-h2">DOWNLOAD COMPANY PROFILE</h2>
+                        
+                     <span class="palace-company-profile-span" style="width: auto !important;">
 
                          <a href="Booking-form.pdf"  download="Booking-form.pdf">
 

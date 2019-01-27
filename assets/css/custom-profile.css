@@ -331,19 +331,19 @@
 
 
 		.ch-img-1 { 
-			background-image: url(../man.jpg);
+			background-image: url(../bb.jpg);
 		}
 
 		.ch-img-2 { 
-			background-image: url(../man.jpg);
+			background-image: url(../aa.jpg);
 		}
 
 		.ch-img-3 { 
-			background-image: url(../man.jpg);
+			background-image: url(../aa.jpg);
 		}
 
 		.ch-img-4 { 
-			background-image: url(../man.jpg);
+			background-image: url(../bb.jpg);
 		}
 
 		.ch-img-5 { 
@@ -439,7 +439,8 @@
 		
 
 		#header-wrap {
-			background-image: url(../images/custom-images/section/sister-concern/header-background.png);
+			/*background-image: url(../images/custom-images/section/sister-concern/header-background.png);*/
+			background-color: #F8F9FA;
 		}
 
 		#home-icon{
@@ -479,7 +480,7 @@
 			font-family: 'Muli';
 			font-weight: 300;
 			font-size: 16px;
-			color: white;
+			color: #03A9F4;
 
 		}
 

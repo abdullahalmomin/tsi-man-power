@@ -635,10 +635,10 @@ transform: translate(-50%, -50%);
 
 .our-projects-p{
 
-	margin-bottom: 20px;
-	font-family: 'Montserrat';
+	margin-bottom: 16px;
+	font-family: 'Garamond';
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 22px;
 	color: #000000;
 	margin-left: 2px;
 
@@ -766,7 +766,7 @@ figure.palace-residence-effect-lily p {
 
 	font-weight: 300;
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 20px;
 	color: #111111;
 	margin-bottom: 30px;
 	line-height: 32px;
@@ -943,7 +943,7 @@ figure.palace-about-us-effect-lily p {
 #palace-contact-header{
 	font-weight: 700;
 	font-family: 'Muli';
-	font-size: 45px;
+	font-size: 32px;
 	color: #585958;
 	margin-bottom: 30px;
 }
@@ -953,7 +953,7 @@ figure.palace-about-us-effect-lily p {
 
 	font-weight: 300;
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 20px;
 	/*text-align: center;*/
 	color: #111111;
 	margin-bottom: 30px;
@@ -1103,14 +1103,14 @@ figure.palace-about-us-effect-lily p {
 .button.button-rounded.button-reveal.button-large.button-border.tright{
 	border-color: transparent;
 	color: white;
-	background-color: #206931;
+	background-color: #03a9f4;
 	border-radius: 45px;
 	-webkit-border-radius: 45px;
 }
 
 .button.button-rounded.button-reveal.button-large.button-border.tright:hover{
-	color: #90d13b;
-	background-color: #1e642e;
+	color: white;
+	background-color: #03a9f4;
 	/*text-shadow: 0 2px 15px #2f3238;*/
 }
 
